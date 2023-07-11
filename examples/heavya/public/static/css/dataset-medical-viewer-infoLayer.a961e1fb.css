@@ -1,0 +1,1 @@
+.infoLayer{position:absolute;top:0;left:0;z-index:2;width:100%;height:calc(100vh - 80px);pointer-events:none}.infoLayer .info-element{position:absolute;color:#add8e6;text-shadow:1px 1px #000}.infoLayer .info-tl{top:10px;left:27px}.infoLayer .info-tr{top:10px;right:32px}.infoLayer .info-bl{bottom:16px;left:27px}.infoLayer .info-br{right:32px;bottom:16px}

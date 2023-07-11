@@ -1,0 +1,1 @@
+(window["webpackJsonp_dubhe_web"]=window["webpackJsonp_dubhe_web"]||[]).push([["dataset-style-common-scss"],{8039:function(e,n,s){e.exports={menuBg:"#f3f7ff",menuText:"#666",menuActiveText:"#1890ff"}}}]);

@@ -1,0 +1,1 @@
+(window["webpackJsonp_dubhe_web"]=window["webpackJsonp_dubhe_web"]||[]).push([["dataset-pointCloud-editor-core-consts"],{7966:function(e,E,_){"use strict";_.r(E),E["default"]={CAMERA_REFERENCE:"camRef",CUBOID_EDGE_NAME:"edges",ROTATION_HELPER:"rotationHelper",ROTATION_HELPER_OFFSET:.1,ROTATION_SPEED:80,FOV_MAX:2,FOV_MIN:0,FOV_INC:.08,MAIN_VIEW_BG:0,PRIMARY:5820873}}}]);

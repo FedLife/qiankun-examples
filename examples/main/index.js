@@ -1,5 +1,5 @@
 import 'zone.js'; // for angular subapp
-import { initGlobalState, registerMicroApps, runAfterFirstMounted, setDefaultMountApp, start } from '../../es';
+import { initGlobalState, registerMicroApps, runAfterFirstMounted, setDefaultMountApp, start } from 'qiankun';
 import './index.less';
 /**
  * 主应用 **可以使用任意技术栈**
@@ -29,39 +29,11 @@ registerMicroApps(
       activeRule: '/react16',
     },
     {
-      name: 'react15',
-      entry: '//localhost:7102',
+      name: 'heavyA',
+      entry: '//localhost:7201',
       container: '#subapp-viewport',
       loader,
-      activeRule: '/react15',
-    },
-    {
-      name: 'vue',
-      entry: '//localhost:7101',
-      container: '#subapp-viewport',
-      loader,
-      activeRule: '/vue',
-    },
-    {
-      name: 'angular9',
-      entry: '//localhost:7103',
-      container: '#subapp-viewport',
-      loader,
-      activeRule: '/angular9',
-    },
-    {
-      name: 'purehtml',
-      entry: '//localhost:7104',
-      container: '#subapp-viewport',
-      loader,
-      activeRule: '/purehtml',
-    },
-    {
-      name: 'vue3',
-      entry: '//localhost:7105',
-      container: '#subapp-viewport',
-      loader,
-      activeRule: '/vue3',
+      activeRule: '/heavyA',
     },
   ],
   {
@@ -99,7 +71,7 @@ setGlobalState({
 /**
  * Step3 设置默认进入的子应用
  */
-setDefaultMountApp('/react16');
+// setDefaultMountApp('/react16');
 
 /**
  * Step4 启动应用
