@@ -1,6 +1,6 @@
 ## 复现 https://github.com/umijs/qiankun/issues/2547
 
-- 启动主应用，两个字应用
+- 启动主应用，两个子应用
   - `npm install`
   - `npm run examples:install`
   - `npm run examples:start`
