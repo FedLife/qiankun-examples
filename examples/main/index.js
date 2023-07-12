@@ -76,7 +76,9 @@ setGlobalState({
 /**
  * Step4 启动应用
  */
-start();
+start({
+  singular: true
+});
 
 runAfterFirstMounted(() => {
   console.log('[MainApp] first app mounted');
